@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/marck/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2259078429.index
+2892657108.index
+3774478918.index
+1288609748.index
+3307451928.index
+2233722090.index

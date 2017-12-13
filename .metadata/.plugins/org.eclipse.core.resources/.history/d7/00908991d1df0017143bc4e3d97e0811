@@ -1,0 +1,12 @@
+package com.marck.spring.app.Models.ClienteDao;
+
+import java.util.List;
+import com.marck.spring.app.Models.Entity.Cliente;
+
+public interface ICliente {
+	public List<Cliente> findAll();
+	public Cliente findOne();
+	public int insertCliente();
+	public int deleteCliente();
+	public int updateCliente();
+}

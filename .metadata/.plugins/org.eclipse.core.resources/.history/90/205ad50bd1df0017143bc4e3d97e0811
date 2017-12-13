@@ -1,0 +1,11 @@
+package com.marck.spring.app.Models.Entity;
+
+import java.sql.Timestamp;
+
+public class Cliente {
+	private Long id; 
+	private String nombre;
+	private String apellido;
+	private String email;
+	private Timestamp fecha;
+}

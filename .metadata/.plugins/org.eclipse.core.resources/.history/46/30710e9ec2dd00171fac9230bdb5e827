@@ -1,0 +1,7 @@
+package com.marck.spring.app.models.dao;
+
+public class IClienteDao {
+	public List<Cliente> findAll(){}
+	
+
+}

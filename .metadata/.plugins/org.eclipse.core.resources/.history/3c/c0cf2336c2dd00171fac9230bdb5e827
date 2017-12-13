@@ -1,0 +1,5 @@
+package com.marck.spring.app.models.dao;
+
+public class IClienteDao {
+
+}

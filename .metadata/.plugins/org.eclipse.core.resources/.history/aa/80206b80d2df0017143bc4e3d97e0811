@@ -1,0 +1,5 @@
+package com.marck.spring.app.Models.ClienteDao;
+
+public class ClienteImpl {
+
+}

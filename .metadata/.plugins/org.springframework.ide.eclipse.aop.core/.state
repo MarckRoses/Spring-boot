@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="HolaMundoSpring"/>
+<aop-project name="Spring-boot-thymeleaf"/>
+<aop-project name="Spring-boot-jpa"/>
+</aop-reference-model>

@@ -1,0 +1,49 @@
+package com.marck.spring.app.Models.ClienteDao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataAccessException;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.marck.spring.app.Models.Entity.Cliente;
+@Repository
+public class ClienteImpl implements ICliente{
+	private final String SelectAll="Select * from Cliente";
+	NamedParameterJdbcTemplate nJdbc;
+	@Autowired
+	public  void setNamedParameterJdbcTemplate(NamedParameterJdbcTemplate nJdbc)throws DataAccessException{
+		this.nJdbc=nJdbc;
+	}
+	@Override
+	public List<Cliente> findAll() {
+		
+		return null;
+	}
+
+	@Override
+	public Cliente findOne(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int insertCliente(Cliente cliente) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int deleteCliente(Long id) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int updateCliente(Cliente cliente) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
